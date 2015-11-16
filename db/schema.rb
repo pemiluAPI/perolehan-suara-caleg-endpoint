@@ -11,10 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151106111509) do
+ActiveRecord::Schema.define(version: 20151116053859) do
 
   create_table "calegs", force: true do |t|
     t.string   "peserta"
+    t.string   "nama_lengkap"
     t.integer  "dapil_1"
     t.integer  "dapil_2"
     t.integer  "dapil_3"

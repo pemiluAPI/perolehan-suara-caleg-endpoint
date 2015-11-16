@@ -22,6 +22,7 @@ class Caleg < ActiveRecord::Base
     return {
       id: id,
       peserta: peserta,
+      nama_lengkap: nama_lengkap,
       dapil_1: dapil_1,
       dapil_2: dapil_2,
       dapil_3: dapil_3,
